@@ -12,11 +12,13 @@ body {
     flex-direction: column;
     background-color: #1f2937;
     padding: 16px;
+    padding-left: 175px;
+    padding-right: 175px;
 }
 
 .header-logo{
-    width: 100px;
-    height: auto;
+    font-size: 24px;
+    color: #f9faf8;
 }
 
 .header-top{
@@ -33,6 +35,7 @@ ul{
     display: flex;
     margin-left: auto;
     list-style: none;
+    gap: 30px;
 }
 
 a{
@@ -53,6 +56,6 @@ a{
 }
 
 .header-image{
-    width: 300px;
+    width: 450px;
     height: auto;
 }
