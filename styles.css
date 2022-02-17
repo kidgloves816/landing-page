@@ -11,7 +11,7 @@ body {
     display: flex;
     flex-direction: column;
     background-color: #1f2937;
-    padding: 16px;
+    padding: 100px;
     padding-left: 175px;
     padding-right: 175px;
 }
@@ -69,6 +69,7 @@ a{
     padding: 10px 20px;
     font-weight: 700;
     border-color: #3882f6;
+    border-style: solid;
 }
 
 .main-info{
@@ -112,7 +113,7 @@ a{
 
 .quote{
     font-size: 36px;
-    font-family: 'italic';
+    font-family: 'light italic';
     color: #1f2937;
     margin: 0px;
 }
@@ -120,4 +121,38 @@ a{
 .author{
     text-align: right;
     margin: 0px;
+}
+
+.action-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 24px 48px;
+}
+
+.action-block{
+    background-color: #3882f6;
+    display: flex;
+    padding: 12px 24px;
+    border-radius: 5px;
+    gap: 20px;
+    color: #f9faf8;
+    width: 700px;
+    justify-content: center;
+    align-items: center;
+}
+
+.action-section button{
+    background-color: #3882f6;
+    border-color: #ffffff;
+    flex: 0;
+    padding: 5px 10px;
+    border-radius: 5px;
+    color: #f9faf8;
+    white-space: nowrap;
+    border-style: solid;
+}
+
+.action-block text{
+
 }
