@@ -85,6 +85,10 @@ a{
     justify-content: center;
 }
 
+.card{
+    flex: 0;
+}
+
 
 .info-pic {
     height: 150px;
